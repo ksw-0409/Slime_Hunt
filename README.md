@@ -63,6 +63,8 @@ Assets/
     UI/
       PlayerHealthUI.cs
       ScoreUI.cs
+    Animation/
+      CharacterWalkAnimation.cs
 Docs/
   BugAnswerKey.md     버그 정답지 (버그핀에 입력하지 않음)
   WorkLogs/           작업자별 작업 로그
@@ -89,4 +91,4 @@ ProjectSettings/
 2. `Assets/Scenes/Main.unity`를 연다.
 3. Play 버튼을 누른다.
 
-별도 아트 에셋은 쓰지 않는다. 플레이어, 몬스터, 벽, 스킬 이펙트는 Unity 기본 도형 스프라이트와 색으로 구분한다.
+아트는 16x16 도트 스프라이트(`Assets/Art/Sprites/`)를 쓰고, 플레이어와 슬라임은 3프레임 걷기 애니메이션(`Assets/Art/Animations/`)이 있다. 스프라이트, 애니메이션, 프리팹, `Main.unity`는 에디터 메뉴 `Tools > Slime Hunt > Build Battle Scene`(`Assets/Editor/SlimeHuntSceneBuilder.cs`)으로 다시 생성할 수 있다.

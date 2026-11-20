@@ -74,6 +74,7 @@ https://github.com/Unity-Technologies/skills
 | `Scripts/Monster/MonsterSpawner.cs` | 일정 간격으로 맵 가장자리에 몬스터 생성 | 없음 |
 | `Scripts/UI/PlayerHealthUI.cs` | 플레이어 체력 표시 | 없음 |
 | `Scripts/UI/ScoreUI.cs` | 점수 표시 | 없음 |
+| `Scripts/Animation/CharacterWalkAnimation.cs` | 이동 속도에 따라 걷기 애니메이션 전환 (플레이어, 슬라임 공용) | 없음 |
 
 - 버그 하나는 스크립트 하나에만 둔다. 한 스크립트에 버그를 두 개 넣지 않는다.
 - 버그가 없는 스크립트는 정상 동작해야 한다. 심지 않은 버그가 생기면 채점이 꼬인다.
